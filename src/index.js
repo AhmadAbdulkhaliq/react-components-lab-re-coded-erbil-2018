@@ -54,6 +54,15 @@ export class ButcherShop extends React.Component {
   }
 }
 
+export class App extends React.Component{
+  render(){
+    return(
+      <div className="App">
+      </>
+      </div>
+      )
+  }
+}
 
 ReactDOM.render(<App />,
   document.getElementById('root')
