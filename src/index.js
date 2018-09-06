@@ -11,15 +11,16 @@ const BUTCHER_PRODUCTS = [
 // Define these exported classes
 export class OlderCoaster extends React.Component {
   // your code here
-  render(
-    <div class="oldercoaster">
-  <p>Two grannies having the time of their life!</p>
-  <p>Passengers:</p>
-  <ul>
-    <li>Agnes</li>
-    <li>Muriel</li>
-  </ul>
-</div>
+  render() {
+    return (
+      <div className="oldercoaster">
+        <p>Two grannies having the time of their life!</p>
+        <p>Passengers:</p>
+        <ul>
+          <li>Agnes</li>
+          <li>Muriel</li>
+        </ul>
+      </div>
     )
 }
 
