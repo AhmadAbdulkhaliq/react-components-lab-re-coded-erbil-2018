@@ -20,7 +20,8 @@ export class OlderCoaster extends React.Component {
      <li>Agnes</li>
      <li>Muriel</li>
    </ul>
- </div>)
+ </div>
+ )
   }
 }
 
