@@ -12,7 +12,8 @@ const BUTCHER_PRODUCTS = [
 export class OlderCoaster extends React.Component {
   // your code here
     render() {
-      return (<div class="oldercoaster">
+      return (
+      <div class="oldercoaster">
    <p>Two grannies having the time of their life!</p>
    <p>Passengers:</p>
    <ul>
